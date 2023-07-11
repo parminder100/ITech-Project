@@ -771,6 +771,60 @@ header{
 /* Focus On Theme End */
 
 
+/* One Time Payment Start */
+.one-time-payment-text-center{
+    display: flex;
+    justify-content: center;
+}
+.one-time-payment{
+    margin-bottom: 19px;
+}
+.one-time-payment-row{
+    text-align: center;
+}
+.one-time-payment-heading{
+    margin-bottom: 19px;
+}
+.one-time-payment-text{
+    font-size: 15px;
+    color: var(--itech-section-color);
+}
+.one-time-payment-bg-image{
+    background-image: url("./Assets/img/one-time-payment-bg-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 464px;
+    position: relative;
+    bottom: 94px;
+}
+.one-time-payment-image1{
+    position: absolute;
+    top: 164px;
+    left: 84px;
+}
+.one-time-payment-image2{
+    position: absolute;
+    top: 261px;
+    left: 294px;
+}
+.one-time-payment-image3{
+    position: absolute;
+    top: 166px;
+    left: 602px;
+}
+.one-time-payment-image4{
+    position: absolute;
+    top: 255px;
+    left: 861px;
+}
+.one-time-payment-image5{
+    position: absolute;
+    top: 127px;
+    right: 82px;
+}
+/* One Time Payment End */
+
+
 
 
 
@@ -1030,6 +1084,31 @@ header{
         bottom: 28px;
     }
     /* Focus On Theme End */
+
+    /* One Time Payment Start */
+    .one-time-payment-app-image{
+        width: 50px;
+    }
+    .one-time-payment-image2{
+        top: 229px;
+        left: 135px;
+    }
+    .one-time-payment-image3{
+        top: 297px;
+        left: 89px;
+    }
+    .one-time-payment-image4{
+        top: 297px;
+        left: 186px;
+    }
+    .one-time-payment-image5{
+        top: 381px;
+        right: 237px;
+    }
+    .one-time-payment-bg-image{
+        bottom: 56px;
+    }
+    /* One Time Payment End */
 }
 
 
@@ -1211,6 +1290,31 @@ header{
         bottom: 106px;
     }
     /* Focus On Theme End */
+
+    /* One Time Payment Start */
+    .one-time-payment-app-image{
+        width: 50px;
+    }
+    .one-time-payment-image2{
+        top: 229px;
+        left: 335px;
+    }
+    .one-time-payment-image3{
+        top: 297px;
+        left: 489px;
+    }
+    .one-time-payment-image4{
+        top: 297px;
+        left: 286px;
+    }
+    .one-time-payment-image5{
+        top: 381px;
+        left: 70px;
+    }
+    .one-time-payment-bg-image{
+        bottom: 56px;
+    }
+    /* One Time Payment End */
 }
 
 
@@ -1369,6 +1473,31 @@ header{
         bottom: 44px;
     }
     /* Focus On Theme End */
+
+    /* One Time Payment Start */
+    .one-time-payment-app-image{
+        width: 100px;
+    }
+    .one-time-payment-image2{
+        top: 229px;
+        left: 335px;
+    }
+    .one-time-payment-image3{
+        top: 297px;
+        left: 640px;
+    }
+    .one-time-payment-image4{
+        top: 297px;
+        left: 486px;
+    }
+    .one-time-payment-image5{
+        top: 381px;
+        left: 70px;
+    }
+    .one-time-payment-bg-image{
+        bottom: 56px;
+    }
+    /* One Time Payment End */
 }
 
 
@@ -1428,4 +1557,15 @@ header{
         bottom: 0px;
     }
     /* Focus On Theme End */
+
+    /* One Time Payment Start */
+    .one-time-payment-image4{
+        top: 255px;
+        left: 786px;
+    }
+    .one-time-payment-image5{
+        top: 336px;
+        left: 27px;
+    }
+    /* One Time Payment End */
 }
