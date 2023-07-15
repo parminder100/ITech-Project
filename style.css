@@ -22,7 +22,7 @@ header{
     left: 0px;
     right: 0px;
     background-color: #fff;
-    z-index: 999;
+    z-index: 1000;
 }
 .itech-grid{
     width: 100%;
@@ -826,6 +826,48 @@ header{
 
 
 
+/* Gallery Section Start */
+.gallery-section-bg{
+    background-color: #F9F4F4;
+    padding-top: 40px;
+}
+.gallery-section-bg-image-content{
+    text-align: center;
+}
+.gallery-section-mobile-display{
+    position: relative;
+    margin-bottom: -4px;
+    z-index: 999;
+}
+.gallery-section-mobile-image{
+    position: absolute;
+    right: 658px;
+    margin-top: 7px;
+    border-radius: 17px;
+}
+.gallery-section-bg-image3{
+    position: absolute;
+    left: 0px;
+    margin-top: 30px;
+}
+.gallery-section-bg-image4{
+    position: absolute;
+    left: 220px;
+    margin-top: 70px;
+}
+.gallery-section-bg-image5{
+    position: absolute;
+    right:0px;
+    margin-top: 30px;
+}
+.gallery-section-bg-image6{
+    position: absolute;
+    right: 244px;
+    margin-top: 40px;
+}
+/* Gallery Section End */
+
+
 
 
 /* Media Queries */
@@ -1109,6 +1151,31 @@ header{
         bottom: 56px;
     }
     /* One Time Payment End */
+
+
+    /* Gallery Section Start */
+    .gallery-section-mobile-display{
+        width: 100%;
+    }
+    .gallery-section-mobile-image{
+        width: 138px;
+        right: 0px;
+        margin-top: 7px;
+        left: 36px;
+    }
+    .gallery-section-bg-image3{
+        display: none;
+    }
+    .gallery-section-bg-image4{
+        display: none;
+    }
+    .gallery-section-bg-image5{
+        display: none;
+    }
+    .gallery-section-bg-image6{
+        display: none;
+    }
+    /* Gallery Section End */
 }
 
 
@@ -1315,6 +1382,31 @@ header{
         bottom: 56px;
     }
     /* One Time Payment End */
+
+    /* Gallery Section Start */
+    .gallery-section-mobile-display{
+        width: 100%;
+    }
+    .gallery-section-mobile-image{
+        width: 242px;
+        right: 0px;
+        margin-top: 7px;
+        height: 539px;
+        left: 71px;
+    }
+    .gallery-section-bg-image3{
+        display: none;
+    }
+    .gallery-section-bg-image4{
+        display: none;
+    }
+    .gallery-section-bg-image5{
+        display: none;
+    }
+    .gallery-section-bg-image6{
+        display: none;
+    }
+    /* Gallery Section End */
 }
 
 
@@ -1498,6 +1590,21 @@ header{
         bottom: 56px;
     }
     /* One Time Payment End */
+
+    /* Gallery Section Start */
+    .gallery-section-mobile-image{
+        width: 167px;
+        right: 0px;
+        margin-top: 7px;
+        left: 236px;
+    }
+    .gallery-section-bg-image4{
+        display: none;
+    }
+    .gallery-section-bg-image6{
+        display: none;
+    }
+    /* Gallery Section End */
 }
 
 
@@ -1568,4 +1675,13 @@ header{
         left: 27px;
     }
     /* One Time Payment End */
+
+    /* Gallery Section Start */
+    .gallery-section-mobile-image{
+        right: 493px;
+    }
+    .gallery-section-bg-image4{
+        left: 189px;
+    }
+    /* Gallery Section End */
 }
